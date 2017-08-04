@@ -1,0 +1,114 @@
+/*header gif*/
+body {
+  background-color: black;
+  background-image: url("autumn-goodman-242825.jpg");
+  background-size: 500px;
+
+}
+/*header {
+  background-image: url("https://media.giphy.com/media/OTYiFlofk3EaI/giphy.gif");
+  height: 150px;
+  width: 100%;*/
+}
+}
+header h1 {
+  float: left;
+  font: 40px;
+  margin: auto;
+  padding-top: 50px;
+  font-family: cursive;
+}
+header h1 a {
+  text-decoration: none;
+  color: black;
+}
+/*navigtion*/
+#top-nav {
+float: right;
+margin:60px;
+
+}
+#top-nav {
+margin: 0
+list-style: none;
+}
+#top-nav ul li {
+font-size: 18px;
+font-family: cursive;
+color: black;
+text-decoration: none;
+display: inline-block;
+}
+#top-nav ul li a: hover {
+color: white;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #FFD915;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 300px;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #000000;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    /*position: relative;
+    display: inline-block;*/
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#myDropdown{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    /*position: absolute;*/
+    background-color: #f9f9f9;
+    /*min-width: 160px;*/
+    width: inherit;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    margin-left: 250px;
+}
+.dropdown a{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+#hair a:link, a:visited, a:active {
+    color: black;
+    text-decoration: none
+}
+.show {display:block;}
+ #hairbody {
+   background-image: url("autumn-goodman-242822.jpg");
+ }
